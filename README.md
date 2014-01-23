@@ -1,1 +1,1 @@
-My current AutoHotKey Scripts. SOme custom and some not.
+My current AutoHotKey Scripts. Some custom and some not.
