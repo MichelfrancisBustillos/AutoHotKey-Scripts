@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Page Restricted</title>
+<style>
+html{
+	background:#FFFFFF;	
+}
+body{
+	font-family:Helvetica,Arial,sans-serif;
+	background:url(body_bg.gif) repeat-x  #FFFFFF; 
+	margin:0;
+}
+.text3 {
+	FONT-SIZE: 14px;
+	color:#000000;
+	text-decoration:none;
+}
+.menuTitle {
+	FONT-SIZE: 26px;
+	color:#555555;
+	font-weight:bold;
+	text-decoration:none;
+}
+.shadow{
+	-webkit-box-shadow: #999 1px 1px 2px;
+	-moz-box-shadow: #999 1px 1px 2px;
+	-o-box-shadow: #999  1px 1px 2px;
+	box-shadow: #999 1px 1px 2px;
+}
+</style>
+<script type="text/javascript" src="block.js"></script>
+</head>
+<body onLoad="javascript:displaySections();">
+<center>
+  <table cellpadding="0" cellspacing="0" width="773" bgcolor="#FFFFFF" style="border:1px solid #000000;" class="shadow">
+    <tr>
+      <td><img src="top.jpg" /></td>
+    </tr>
+    <tr>
+      <td height="130" align="left"><table cellpadding="0" cellspacing="0" width="100%" align="left">
+          <tr>
+          	<td height="30" colspan="3"></td>
+           </tr>
+          <TR>
+                        <TD COLSPAN="100%"><TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+                            <TR>
+                              <TD WIDTH="3%" height="29"></TD>
+                              <TD WIDTH="94%" class="menuTitle" align="center">Page Blocked</TD>
+                              <TD WIDTH="3%"></TD>
+                            </TR>
+                          </TABLE></TD>
+                      </TR>
+                      <tr>
+                        <td colspan="100%">&nbsp;</td>
+                      </tr>
+          <tr>
+                              <TD width="5%">&nbsp;</TD>
+                              <TD width="90%" style="padding:3px;" class="text3">Access to the requested site has been restricted  due to your organization&rsquo;s policy.</TD>
+                              <TD width="5%">&nbsp;</TD>
+                            </tr>
+                            <tr>
+                              <TD width="5%" height="40"></TD>
+                              <TD width="90%" class="text3" style="padding:3px;"><span id="customText"></span></TD>
+                              <TD width="5%"></TD>
+                            </tr>
+          <tr>
+            <td height="50" width="5%">&nbsp;</td>
+            <td class="text3" width="90%"><table class="text3" cellpadding="3" cellspacing="0" width="100%" align="left">
+                <tr>
+                  <td width="90%"><strong>URL/Content: </strong><span id="url"></span></td>
+                  <td width="10%"></td>
+                </tr>
+                <tr>
+                  <td width="90%"><strong>Description: </strong><span id="description"></span></td>
+                  <td width="10%"></td>
+                </tr>
+                <tr>
+                  <td width="90%"><strong>Group Number: </strong><span id="groupNumber"></span></td>
+                  <td width="10%"></td>
+                </tr>
+                <tr>
+                  <td width="90%"><strong>Ip Address: </strong><span id="ipAddress"></span></td>
+                  <td width="10%"></td>
+                </tr>
+              </table></td>
+            <td width="5%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center" height="250" colspan="100%"><img src="alert.png" /></td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr>
+      <td><table width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%" align="center"><span id="loginDifferentUser"></span></td>
+          </tr>
+          <tr>
+            <td height="15" colspan="100%"></td>
+          </tr>
+        </table></td>
+    </tr>
+    <FORM action="" method="POST" >
+      <INPUT type="hidden" name="button">
+                            <INPUT type="hidden" name="fullUrl">
+                            <INPUT type="hidden" name="rem">
+                            <INPUT type="hidden" name="contactEmail">
+                            <INPUT type="hidden" name="gn">
+      <tr>
+        <td><table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td colspan="100%" height="10"></td>
+            </tr>
+            <tr>
+              <td width="8%"></td>
+              <td class="text3" colspan="13" id="exceptionColor"><strong><span id="exception1"></span></strong></td>
+              <td width="22%"></td>
+            </tr>
+			<tr>
+              <td width="8%"></td>
+              <td class="text3" colspan="13" id="exceptionColor"><strong><span id="exception7"></span></td>
+              <td width="22%"></td>
+            </tr>
+            <tr>
+              <td colspan="100%" height="10"></td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="20%"></td>
+        <td class="text3" width="10%"><strong><span id="exception5"></span></strong>&nbsp;</td>
+        <td class="text3" width="3%"></td>
+        <td width="32%" align="left"><span id="exception6"></span></td>
+        <td class="text3" width="5%"></td>
+        <td width="27%" valign="bottom"></td>
+        <td width="3%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="20%"></td>
+        <td class="text3" width="10%"><strong><span id="exception2"></span></strong>&nbsp;</td>
+        <td class="text3" width="3%"></td>
+        <td width="32%" align="left"><span id="exception3"></span></td>
+        <td class="text3" width="5%"></td>
+        <td width="27%" valign="bottom"><span id="exception4"></span></td>
+        <td width="3%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="45" colspan="100%"></td>
+      </tr>
+    </table></td>
+      </tr>
+    </FORM>
+  </table>
+</center>
+</body>
+</html>
