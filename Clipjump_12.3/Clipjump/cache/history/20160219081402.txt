@@ -1,0 +1,6 @@
+﻿IfWinNotExist, brightnessControl.ahk
+	Run, brightnessControl.ahk
+return
+IfWinExist, brightnessControl.ahk
+	MsgBox,, AutoHotKey Startup, Starting brightnessControl.ahk..., 5
+return

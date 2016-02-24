@@ -1,6 +1,21 @@
 #NoTrayIcon
 #SingleInstance, Force
 
+;***Misc Shortscuts***
+;`::Backspace
+insert:: ;Ins = Google currently highlighted text
+	bak = %clipboard%
+	clipboard := 
+	Send, ^c
+	Run, http://www.google.com/search?q=%Clipboard%
+	clipboard = %bak%
+Return
+^+c:: ;Ctrl + Shift + C = Append to clipboard
+	bak = %clipboard%
+	Send, ^c
+	clipboard = %bak%`r `r%clipboard%
+return
+
 ;***Windows Logo Key Shortcuts***
 #n::Run, C:\Windows\system32\notepad.exe ;WindowsLogoKey + N = Open New Notepad
 #c::Run, C:\Windows\system32\calc.exe ;WindowsLogoKey + C = Open Calculator
@@ -19,8 +34,8 @@ AppsKey & Up::MouseMove, 0, -10, 0, R ;AppsKey + Up = Move Mouse Up
 AppsKey & Down::MouseMove, 0, 10, 0, R ;AppsKey + Down = Move Mouse Down
 AppsKey & RCtrl::Click ;Appskey + RCtrl = Left Click
 AppsKey & m::Run, Explorer C:\ ;Appskey + M = Open Windows Explorer
-AppsKey & c::Run, C:\Windows\system32\cmd.exe, C:\ ;AppsKey + C = Open Command Propt
-
+AppsKey & p::Run, C:\Users\miche\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Control Panel.lnk ;AppsKey + p = Open Control Panel
+AppsKey & c::Run, C:\Windows\system32\cmd.exe, C:\ ;Appskey + C = Open Command Prompt
 ;***Mouse Shortcuts***
 WheelLeft::Browser_Back ;MouseWheelLeft = Browser Back
 WheelRight::Browser_Forward ;MouseWheelRight = Browser Forward

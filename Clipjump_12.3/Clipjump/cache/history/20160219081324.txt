@@ -1,0 +1,3 @@
+﻿IfWinNotExist, brightnessControl.ahk
+	Run, brightnessControl.ahk
+return

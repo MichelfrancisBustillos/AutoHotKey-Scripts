@@ -1,0 +1,6 @@
+﻿IfWinNotExist, KeyboardShortcuts.ahk
+	Run, KeyboardShortcuts.ahk
+return
+IfWinExist, KeyboardShortcuts.ahk
+	MsgBox,, AutoHotKey Startup, Starting KeyboardShortcuts.ahk..., 5
+return

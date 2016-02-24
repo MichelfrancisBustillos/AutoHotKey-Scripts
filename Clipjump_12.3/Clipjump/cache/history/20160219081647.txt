@@ -1,0 +1,1 @@
+﻿MsgBox,, AutoHotKey Startup, Starting newFolderEnMass.ahk..., 5

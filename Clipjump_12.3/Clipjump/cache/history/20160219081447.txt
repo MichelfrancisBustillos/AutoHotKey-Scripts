@@ -1,0 +1,1 @@
+﻿ListShortcuts.ahk

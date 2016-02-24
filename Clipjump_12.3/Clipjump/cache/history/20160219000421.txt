@@ -1,0 +1,7 @@
+﻿C:\Users\miche\Documents\AutoHotKey\NotInUse
+C:\Users\miche\Documents\AutoHotKey\brightnessControl.ahk
+C:\Users\miche\Documents\AutoHotKey\KeyboardShortcuts.ahk
+C:\Users\miche\Documents\AutoHotKey\ListShortcuts.ahk
+C:\Users\miche\Documents\AutoHotKey\newFolderEnMass.ahk
+C:\Users\miche\Documents\AutoHotKey\nipb.bmp
+C:\Users\miche\Documents\AutoHotKey\sun.ico
