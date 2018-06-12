@@ -5,13 +5,6 @@ SetTitleMatchMode, 2
 
 MsgBox,, AutoHotKey Startup, Starting AutoHotKeyScripts..., 5
 
-IfWinNotExist, brightnessControl.ahk
-	Run, brightnessControl.ahk
-	MsgBox,, AutoHotKey Startup, Starting brightnessControl.ahk..., 5
-return
-IfWinExist, brightnessControl.ahk
-	MsgBox,, AutoHotKey Startup, brightnessControl.ahk Already Running..., 5
-return
 
 IfWinNotExist, KeyboardShortcuts.ahk
 	Run, KeyboardShortcuts.ahk
